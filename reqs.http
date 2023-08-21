@@ -5,4 +5,4 @@ GET {{server}}/employees
 POST {{server}}/employees
 Content-Type: application/json
 
-{"firstname":"Primer Nombre", "lastName": "Apellido", "description": "semana 10"}
+{"firstName": "Primer Nombre", "lastName": "Apellido", "description": "semana 10"}
