@@ -1,0 +1,8 @@
+@server= https://glowing-waddle-4jg67qqvwpjc667-8080.app.github.dev/api
+###
+GET {{server}}/employees
+###
+POST {{server}}/employees
+Content-Type: application/json
+
+{"firstname":"Primer Nombre", "lastName": "Apellido", "description": "semana 10"}
